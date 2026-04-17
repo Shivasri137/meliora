@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" width="520" height="420">
+  <!-- Background -->
+  <rect width="520" height="420" fill="white"/>
+
+  <!-- Sky gradient backdrop -->
+  <defs>
+    <radialGradient id="sunGlow" cx="25%" cy="20%" r="25%">
+      <stop offset="0%" stop-color="#FFF3CD" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="treeFoliage" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#5a9e6f"/>
+      <stop offset="100%" stop-color="#2e7d4f"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Sun glow -->
+  <ellipse cx="130" cy="80" rx="90" ry="80" fill="url(#sunGlow)"/>
+
+  <!-- Mountains background -->
+  <polygon points="60,230 140,120 220,230" fill="#9bb5c9" opacity="0.55"/>
+  <polygon points="130,230 230,100 330,230" fill="#7fa3bd" opacity="0.45"/>
+  <polygon points="290,230 380,130 470,230" fill="#9bb5c9" opacity="0.4"/>
+
+  <!-- Ground / grass base -->
+  <ellipse cx="260" cy="240" rx="210" ry="22" fill="#a8d5a2" opacity="0.7"/>
+
+  <!-- Tree trunk -->
+  <rect x="244" y="170" width="24" height="65" rx="4" fill="#7a5230"/>
+  <!-- Tree branch left -->
+  <line x1="250" y1="195" x2="205" y2="175" stroke="#7a5230" stroke-width="8" stroke-linecap="round"/>
+  <!-- Tree branch right -->
+  <line x1="262" y1="185" x2="310" y2="168" stroke="#7a5230" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Tree foliage (main blob) -->
+  <ellipse cx="256" cy="130" rx="88" ry="72" fill="#3d8b5e"/>
+  <ellipse cx="220" cy="145" rx="52" ry="42" fill="#4a9e68"/>
+  <ellipse cx="294" cy="148" rx="50" ry="40" fill="#4a9e68"/>
+  <ellipse cx="256" cy="100" rx="60" ry="50" fill="#56b070"/>
+  <ellipse cx="235" cy="115" rx="35" ry="30" fill="#68c47f"/>
+  <ellipse cx="278" cy="112" rx="32" ry="28" fill="#68c47f"/>
+
+  <!-- Sun -->
+  <circle cx="128" cy="68" r="28" fill="#F5A623" opacity="0.9"/>
+  <!-- Sun rays -->
+  <g stroke="#F5A623" stroke-width="3" stroke-linecap="round" opacity="0.75">
+    <line x1="128" y1="32" x2="128" y2="22"/>
+    <line x1="152" y1="44" x2="158" y2="38"/>
+    <line x1="164" y1="68" x2="174" y2="68"/>
+    <line x1="152" y1="92" x2="158" y2="98"/>
+    <line x1="104" y1="44" x2="98" y2="38"/>
+    <line x1="92" y1="68" x2="82" y2="68"/>
+  </g>
+
+  <!-- Birds -->
+  <path d="M370,55 Q376,50 382,55" stroke="#1a3a5c" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M385,46 Q392,41 399,46" stroke="#1a3a5c" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- === LEFT FIGURE: Girl with clapperboard === -->
+  <!-- Camera on tripod -->
+  <rect x="48" y="158" width="38" height="26" rx="4" fill="#1a2d4a"/>
+  <circle cx="67" cy="171" r="10" fill="#2c3e50"/>
+  <circle cx="67" cy="171" r="6" fill="#1a2d4a"/>
+  <circle cx="67" cy="171" r="3" fill="#4a6fa5" opacity="0.6"/>
+  <rect x="79" y="162" width="6" height="10" rx="2" fill="#1a2d4a"/>
+  <!-- Tripod legs -->
+  <line x1="67" y1="184" x2="50" y2="218" stroke="#1a2d4a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="67" y1="184" x2="67" y2="220" stroke="#1a2d4a" stroke-width="3" stroke-linecap="round"/>
+  <line x1="67" y1="184" x2="84" y2="218" stroke="#1a2d4a" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Girl body (pink overalls) -->
+  <ellipse cx="118" cy="185" rx="13" ry="14" fill="#f4c6a0"/><!-- head -->
+  <path d="M108,185 Q112,182 118,181 Q124,182 128,185" fill="#5a3820" stroke="none"/><!-- hair top -->
+  <path d="M107,187 Q104,195 106,205" stroke="#5a3820" stroke-width="4" fill="none" stroke-linecap="round"/><!-- left hair -->
+  <path d="M129,187 Q132,198 130,208" stroke="#5a3820" stroke-width="4" fill="none" stroke-linecap="round"/><!-- right hair -->
+  <!-- overalls body -->
+  <rect x="108" y="198" width="22" height="28" rx="6" fill="#e07bb5"/>
+  <!-- legs -->
+  <rect x="110" y="224" width="10" height="18" rx="4" fill="#ff9fc5"/>
+  <rect x="120" y="224" width="10" height="18" rx="4" fill="#ff9fc5"/>
+  <!-- shoes -->
+  <ellipse cx="115" cy="243" rx="7" ry="4" fill="#9b59b6"/>
+  <ellipse cx="125" cy="243" rx="7" ry="4" fill="#9b59b6"/>
+  <!-- arms holding clapperboard -->
+  <line x1="108" y1="205" x2="96" y2="218" stroke="#f4c6a0" stroke-width="7" stroke-linecap="round"/>
+  <!-- Clapperboard -->
+  <rect x="78" y="212" width="32" height="22" rx="3" fill="#f0f0f0" stroke="#333" stroke-width="1.5"/>
+  <rect x="78" y="212" width="32" height="8" rx="3" fill="#333"/>
+  <line x1="82" y1="212" x2="79" y2="220" stroke="white" stroke-width="2"/>
+  <line x1="89" y1="212" x2="86" y2="220" stroke="white" stroke-width="2"/>
+  <line x1="96" y1="212" x2="93" y2="220" stroke="white" stroke-width="2"/>
+  <line x1="103" y1="212" x2="100" y2="220" stroke="white" stroke-width="2"/>
+  <text x="82" y="228" font-family="Arial" font-size="5" fill="#333">Meliora</text>
+
+  <!-- === RIGHT: Robot + Vase === -->
+  <!-- Robot body -->
+  <rect x="368" y="155" width="42" height="36" rx="6" fill="#8c8cc8"/>
+  <!-- Robot head -->
+  <rect x="374" y="132" width="30" height="26" rx="5" fill="#a0a0da"/>
+  <!-- Robot eyes -->
+  <circle cx="382" cy="143" r="5" fill="white"/>
+  <circle cx="396" cy="143" r="5" fill="white"/>
+  <circle cx="383" cy="144" r="3" fill="#4a4aaa"/>
+  <circle cx="397" cy="144" r="3" fill="#4a4aaa"/>
+  <!-- Robot mouth -->
+  <path d="M381,153 Q389,158 397,153" stroke="#6666aa" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Robot antenna -->
+  <line x1="389" y1="132" x2="389" y2="120" stroke="#8c8cc8" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="389" cy="117" r="4" fill="#ff9f50"/>
+  <!-- Robot legs -->
+  <rect x="374" y="191" width="12" height="18" rx="3" fill="#7070b8"/>
+  <rect x="392" y="191" width="12" height="18" rx="3" fill="#7070b8"/>
+
+  <!-- Terracotta pot/vase -->
+  <ellipse cx="440" cy="220" rx="24" ry="8" fill="#c4813b" opacity="0.7"/>
+  <path d="M416,198 Q420,225 440,228 Q460,225 464,198 Q453,183 427,183 Z" fill="#c4813b"/>
+  <ellipse cx="440" cy="184" rx="16" ry="6" fill="#d89a52"/>
+  <path d="M428,195 Q440,202 452,195" stroke="#a06828" stroke-width="2" fill="none" opacity="0.6"/>
+
+  <!-- === CENTER FIGURE: Boy crocheting === -->
+  <!-- Sitting posture -->
+  <!-- Head -->
+  <ellipse cx="258" cy="188" rx="18" ry="18" fill="#e8b48a"/>
+  <!-- Curly hair -->
+  <ellipse cx="258" cy="175" rx="20" ry="12" fill="#3d2410"/>
+  <circle cx="242" cy="179" r="9" fill="#3d2410"/>
+  <circle cx="274" cy="179" r="9" fill="#3d2410"/>
+  <circle cx="248" cy="172" r="8" fill="#3d2410"/>
+  <circle cx="268" cy="171" r="8" fill="#3d2410"/>
+  <!-- Hoodie body (teal/grey) -->
+  <path d="M238,205 Q238,240 258,242 Q278,240 278,205 Q270,200 258,200 Q246,200 238,205 Z" fill="#78a8b8"/>
+  <!-- Legs crossed (sitting) -->
+  <ellipse cx="248" cy="248" rx="18" ry="9" fill="#8ab0c0" transform="rotate(-15,248,248)"/>
+  <ellipse cx="268" cy="248" rx="18" ry="9" fill="#8ab0c0" transform="rotate(15,268,248)"/>
+  <!-- Hands with yarn/hook -->
+  <ellipse cx="238" cy="222" rx="7" ry="6" fill="#e8b48a"/>
+  <ellipse cx="278" cy="222" rx="7" ry="6" fill="#e8b48a"/>
+  <!-- Crochet hook -->
+  <line x1="234" y1="218" x2="228" y2="235" stroke="#888" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="228" cy="236" r="2.5" fill="#666"/>
+  <!-- Yarn strands -->
+  <path d="M244,224 Q252,228 260,224 Q268,220 276,224" stroke="#5b90d4" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M240,230 Q250,234 260,230 Q270,226 280,230" stroke="#e85d8c" stroke-width="2.5" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <!-- Yarn balls on ground -->
+  <circle cx="228" cy="248" r="10" fill="#5b90d4"/>
+  <path d="M222,242 Q230,252 236,244" stroke="#4a7dc0" stroke-width="1.5" fill="none"/>
+  <path d="M220,248 Q228,256 236,248" stroke="#4a7dc0" stroke-width="1.5" fill="none"/>
+  <circle cx="290" cy="250" r="8" fill="#e85d8c"/>
+  <path d="M285,244 Q292,252 297,246" stroke="#c04070" stroke-width="1.5" fill="none"/>
+
+  <!-- Flowers / decorative plants -->
+  <circle cx="72" cy="235" r="6" fill="#d4a5d4"/>
+  <circle cx="60" cy="228" r="5" fill="#c090c0"/>
+  <circle cx="80" cy="228" r="4" fill="#e0b0e0"/>
+  <line x1="72" y1="241" x2="72" y2="258" stroke="#4a8a3a" stroke-width="2"/>
+  <ellipse cx="64" cy="253" rx="8" ry="5" fill="#5aaa4a" transform="rotate(-30,64,253)"/>
+  <ellipse cx="80" cy="253" rx="8" ry="5" fill="#5aaa4a" transform="rotate(30,80,253)"/>
+
+  <circle cx="448" cy="243" r="5" fill="#ff9fc5"/>
+  <circle cx="458" cy="237" r="4" fill="#ffb0d0"/>
+  <line x1="451" y1="248" x2="454" y2="262" stroke="#4a8a3a" stroke-width="2"/>
+
+  <!-- ===== MELIORA TEXT ===== -->
+  <text x="260" y="300" font-family="Georgia,'Times New Roman',serif" font-size="72" font-weight="700"
+        fill="#1e4d3a" text-anchor="middle" letter-spacing="3">Meliora</text>
+
+  <!-- Tagline: LEARN • CREATE • EXPLORE • GROW -->
+  <text x="260" y="335" font-family="Arial,sans-serif" font-size="14" font-weight="700"
+        fill="none" text-anchor="middle">
+    <tspan fill="#4CAF50">LEARN</tspan>
+    <tspan fill="#555" dx="4"> • </tspan>
+    <tspan fill="#9C27B0">CREATE</tspan>
+    <tspan fill="#555" dx="4"> • </tspan>
+    <tspan fill="#FF9800">EXPLORE</tspan>
+    <tspan fill="#555" dx="4"> • </tspan>
+    <tspan fill="#2196F3">GROW</tspan>
+  </text>
+
+  <!-- Horizontal rules + SUMMER CAMP -->
+  <line x1="75" y1="357" x2="168" y2="357" stroke="#2c4a2e" stroke-width="1.2" opacity="0.5"/>
+  <text x="260" y="362" font-family="Arial,sans-serif" font-size="13" font-weight="700"
+        fill="#2c4a2e" text-anchor="middle" letter-spacing="5">SUMMER CAMP</text>
+  <line x1="352" y1="357" x2="445" y2="357" stroke="#2c4a2e" stroke-width="1.2" opacity="0.5"/>
+</svg>
