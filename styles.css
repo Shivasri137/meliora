@@ -830,6 +830,34 @@ a { text-decoration: none; }
 }
 
 /* ===========================================================
+   WHATSAPP FLOATING BUTTON
+   =========================================================== */
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 60px;
+  height: 60px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  background-color: #20b858;
+  transform: translateY(-4px) scale(1.05);
+  box-shadow: 0 8px 16px rgba(37, 211, 102, 0.4);
+  color: #fff;
+}
+
+/* ===========================================================
    RESPONSIVE
    =========================================================== */
 @media (max-width: 1024px) {
